@@ -1,0 +1,211 @@
+/********************** Tag Selectors********************/
+
+body{
+    background-color: #EFF5F5;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    -webkit-margin-before:0;
+    -webkit-margin-after:0;
+    font-family:  'Montserrat', sans-serif;
+}
+
+button{
+    border-radius: 10%;
+    height: 2.5em;
+    width: 7em;
+    border-style: double;
+}
+
+hr{
+    background-color: #EFF5F5;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 6px; 
+    width: 10%;
+}
+
+h1{
+    text-align: center;
+    color: #EEEEEE;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 2px;
+}
+
+h3{
+    color: #66BFBF;
+}
+
+p{
+    text-align: center;
+}
+
+::selection{
+    color: #EEEEEE;
+    background-color: #0E5E6F;
+}
+/********************Class Selectors******************/
+
+.title-image{
+    border-style: none;
+    height: auto;
+    margin:0 auto;
+    position:relative;
+    bottom: 13px;
+
+}
+
+.title-text{
+    width:  15%;
+    margin: 0 auto 0 auto;
+    font-family: fantasy;
+    text-decoration: none;
+    position:relative;
+    top:20px;
+    animation-duration: 7s;
+    animation-name: flag-effect;
+    
+}
+@keyframes flag-effect{
+    from{
+        color: #0E5E6F
+    }
+    to{
+        color: #EEEEEE
+    }
+}
+.title-text:visited{
+    color: #66BFBF;
+}
+.title-text:link{
+    color: #66BFBF;
+}
+.title-text:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+
+.button-home{
+    background-color: #0E5E6F;
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    border-style: none;
+}
+
+.button-books{
+    background-color:  #0E5E6F;
+    border-style: none;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
+.button-music{
+    background-color:  #0E5E6F;
+    border-style: none;
+    position: absolute;
+    top: 90px;
+    right: 150px;
+}
+.button-poetry{
+    background-color:  #0E5E6F;
+    position: absolute;
+    top:90px;
+    left: 140px;
+    border-style: none;
+}
+.button-poetry:hover{
+    background-color: #EEEEEE;
+    border-style: none;
+}
+.button-home:hover{
+    background-color: #EEEEEE;
+    border-style: none;
+}
+.button-music:hover{
+    background-color: #EEEEEE;
+    border-style: none;
+}
+.button-books:hover{
+    background-color: #EEEEEE;
+    border-style: none;
+}
+.button-text{
+    color: #EEEEEE;
+    font-size: 1.5em;
+    font-family:fantasy;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.button-text:hover{
+    color: #0E5E6F;
+}
+
+.top-container{
+    background-color: #0E5E6F;
+    text-align: center;
+    height: 150px;
+    position: sticky;
+    top: 0;
+
+}
+
+.middle-container{
+    background-color:#EFF5F5;
+    height: 800px;
+    position: static;
+    top: 0;
+    text-align: center;
+}
+.bottom-container{
+    background-color:#E1D7C6;
+    height: 400px;
+    position: sticky;
+    top: 0;
+}
+.englobing-div{
+    position: sticky;
+}
+.full-bottom-container{
+    position: sticky;
+    height: 150px;
+    background-color: #FFB100;
+}
+.englobing-bottom{
+    position: static;
+}
+/******************ID Selectors***********************/
+
+#title-mainpage{
+    cursor: none;
+}
+
+#subtitle{
+    font-family: serif;
+}
+#copyright{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+#twitter-icon{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    width: 25px;
+}
+#lastfm-icon{
+    position: absolute;
+    top: 38.4%;
+    left: 51%;
+    width: 25px;
+}
+#spotify-icon{
+    position: absolute;
+    top: 38.4%;
+    left: 54%;
+    width: 25px;
+}
