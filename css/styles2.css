@@ -1,0 +1,141 @@
+.font-family-fantasy{
+    font-family: fantasy;
+}
+.backcol{
+    background-color: #0E5E6F;
+}
+.col{
+    color: black;
+}
+.backcol2{
+    background-color:#EEEEEE;
+}
+.textcol{
+    color:#EEEEEE;
+}
+.textcol1{
+    color:#EEEEEE;
+}
+.textcol2{
+    color:#66BFBF;
+}
+
+.textcol:hover{
+    color: gold;
+}
+.scrollnav{
+    position: sticky;
+    top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.line-subt{
+    background-color: #EEEEEE;
+    margin: 0% auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 6px; 
+    width: 10%;
+}
+.padtext{
+    padding: 1% ;
+}
+.navbar-brand{
+    padding-top: 1%;
+}
+.nav-item{
+    padding: 0 16px;
+}
+#artist-1{
+    border-radius: 100%;
+}
+#artist-2{
+    border-radius: 100%;
+}#artist-3{
+    border-radius: 100%;
+}#artist-4{
+    border-radius: 100%;
+}
+.artists-circle-images{
+    width: 25%;
+    margin: 50px auto;
+}
+.artists-circle-images:hover{
+    border-style: solid ;
+    border-color: white;
+    border-width: 10px;
+
+}
+
+.pos-art{
+    position: absolute;
+    left: auto;
+    margin: 50% auto;
+}
+.art{
+    text-align: center;
+}
+
+.desc-size{
+    font-size: larger;
+}
+.middle-container{
+    position: static;
+}
+.middle1{
+    text-align: center;
+}
+.englobing-div{
+    position: sticky;
+}
+.englobing-bottom{
+    position: static;
+}
+
+.bottom{
+    background-color: gold;
+    height: 150px;
+    padding: 0;
+}
+.bottom-container{
+    background-color: #E1D7C6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.logos-ico{
+    width: 30%;
+    height: 10px;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    padding-top:70px ;
+}
+.logo-text{
+    color: white;
+    padding: 0 5px;
+}
+#copyright{
+    width: 40%;
+    position: absolute;
+    text-align: end;
+    left: 60%;
+    margin-top: 127px;
+    color: white;
+}
+.tamico{
+    text-align: center;
+}
+.icoh:hover{
+    color: gold;
+}
+.icoh1{
+    color: red;
+}
+h3 {
+    padding: 30px 0;
+}
+.me{
+    width: 25%;
+}

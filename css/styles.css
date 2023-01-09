@@ -1,4 +1,6 @@
-/********************** Tag Selectors********************/
+/**************************************************/
+/********************** Tag Selectors ********************/
+/**************************************************/
 
 body{
     background-color: #EFF5F5;
@@ -45,8 +47,11 @@ p{
     color: #EEEEEE;
     background-color: #0E5E6F;
 }
-/********************Class Selectors******************/
+/**************************************************/
+/******************** Class Selectors ******************/
+/**************************************************/
 
+/***************** Images **********************/
 .title-image{
     border-style: none;
     height: auto;
@@ -55,6 +60,16 @@ p{
     bottom: 13px;
 
 }
+
+.artists-circle-images{
+    border-radius: 100%;
+    background-color: black;
+    position: static;
+}
+
+/**************************************************/
+
+/********************* Text *************************/
 
 .title-text{
     width:  15%;
@@ -86,6 +101,40 @@ p{
     color: gold;
 }
 
+.button-text{
+    color: #EEEEEE;
+    font-size: 1.5em;
+    font-family:fantasy;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.button-text:hover{
+    color: #0E5E6F;
+}
+.titles-middle-container{
+    text-align: left;
+    position: static;
+    width: 17rem;
+    margin: 0 0 0 30px;
+    font-size: 149%;
+}
+
+.title-artist{
+    position: absolute;
+    bottom: -4%;
+    font-family: fantasy;
+    font-size: larger;
+}
+/************************************/
+/***************** lines *******************/
+.line-subt{
+    background-color: #EEEEEE;
+    margin: 0 auto;
+}
+/************************************/
+
+/************************* Buttons *************************/
 
 .button-home{
     background-color: #0E5E6F;
@@ -132,18 +181,24 @@ p{
     background-color: #EEEEEE;
     border-style: none;
 }
-.button-text{
-    color: #EEEEEE;
-    font-size: 1.5em;
-    font-family:fantasy;
-    font-weight: bold;
-    text-decoration: none;
+/**************************************************/
+
+/************************* DIV *************************/
+
+.phrase-div{
+    height: 200px;
+    background-color:#EEEEEE;
+    position: static;
+    text-align: center;
+}
+.englobing-div{
+    position: sticky  ;
+    height: auto;
+}
+.englobing-1{
+    position: sticky;
 
 }
-.button-text:hover{
-    color: #0E5E6F;
-}
-
 .top-container{
     background-color: #0E5E6F;
     text-align: center;
@@ -152,35 +207,44 @@ p{
     top: 0;
 
 }
-
 .middle-container{
     background-color:#EFF5F5;
-    height: 800px;
-    position: static;
+    height: auto;
+    position:static;
     top: 0;
     text-align: center;
 }
-.bottom-container{
-    background-color:#E1D7C6;
-    height: 400px;
-    position: sticky;
-    top: 0;
-}
-.englobing-div{
+.artists-images-input{
+    height: 300px;
     position: sticky;
 }
-.full-bottom-container{
-    position: sticky;
-    height: 150px;
-    background-color: #FFB100;
-}
+
 .englobing-bottom{
     position: static;
 }
-/******************ID Selectors***********************/
+.bottom-container{
+    background-color:#E1D7C6;
+    position: sticky;
+    top: 0;
+}
+.full-bottom-container{
+    position: relative;
+    bottom: 0;
+    height: 150px;
+    background-color: #FFB100;
+}
+
+
+
+/**************************************************/
+
+/**************************************************/
+/****************** ID Selectors ***********************/
+/**************************************************/
 
 #title-mainpage{
     cursor: none;
+
 }
 
 #subtitle{
@@ -190,6 +254,7 @@ p{
     position: absolute;
     bottom: 0px;
     right: 10px;
+    color:white;
 }
 #twitter-icon{
     position: absolute;
@@ -209,3 +274,48 @@ p{
     left: 54%;
     width: 25px;
 }
+
+#artist-1{
+    border-radius: 100%;
+    height: auto;
+    width: 15%;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+#artist-1:hover{
+    opacity: 0;
+    
+}
+#artist-2{
+    text-align: center;
+    border-radius: 100%;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 42%;
+}
+#artist-2:hover{
+    opacity: 0;
+}
+#artist-3{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top:20%;
+    left: 68%;
+}
+#artist-3:hover{
+    opacity: 0;
+}
+#title-art1{
+    left: 20%;
+}
+#title-art2{
+    left: 45.5%;
+}
+#title-art3{
+    left: 70%;
+}
+/**************************************************/
