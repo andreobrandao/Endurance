@@ -1,66 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Endurance - Home</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="icon" href="images/favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="englobing-div">
-        <div class="top-container">
-            <h1 id="title-mainpage" class="title-text">Endurance</h1>
-            <p id="subtitle">
-                <em>
-                    "Love is the one thing we're capable of perceiving <br>
-                    that trancends dimensions of time and space"
-                </em>
-            </p>
-            <img class="title-image" src="images/star-border.png" alt="Endurance-interstellar">
-            <button class="button-poetry" ><a class="button-text" href="Poetry.html">Poetry</a></button>
-            <button class="button-poetry" ><a class="button-text" href="Poetry.html">Poetry</a></button>
-            <button class="button-music"><a class="button-text" href="music_page.html">Musics</a></button>
-            <button class="button-books"><a class="button-text" href="Books.html">Books</a></button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endurance</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles2.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script></head>
+    <script src="https://kit.fontawesome.com/29628c9b72.js" crossorigin="anonymous"></script>
+<body>
+    <div class="englobing-div">
+    <nav class="navbar navbar-light navbar-expand-lg bg-body-tertiary font-family-fantasy scrollnav container-fluid">
+        <div class="container-fluid backcol ">
+            <a class="navbar-brand fs-2 textcol " href="">Endurance</a>
+            <button class="navbar-toggler textcol1 btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon textcol1"></span>
+              </button>
+            <div class="collapse navbar-collapse textcol" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto "  >
+                    <li class="nav-item">
+                        <a class="nav-link textcol" href="About_me.html">About me</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textcol" href="">Poetry</a> 
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link textcol dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="">Musics</a> 
+                        <ul class="dropdown-menu backcol">
+                            <li><a class="dropdown-item textcol1" href="">Artists</a></li>
+                            <li><a class="dropdown-item textcol1" href="">Albums</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textcol" href="">Books</a> 
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="middle-container">
-            <hr size="3" noshade>
-            <h3> Here is the endurance repository, with some music and poetries i love <br>
+    </nav>
+    <div class="text-center backcol2 container-fluid">
+        <h3 class="fs-5 textcol2 padtext"> Here is the endurance repository, with some music and poetries i love <br>
             Get inside this ship and enjoy the journey.</h3>
-            <h3>Come and check this out!</h3>
-            <hr size="3" noshade="">
-
-            <h3>Upload of the day:</h3>
-            <img class="album-aurora" src="images/All_My_Demons_Greeting_Me_as_a_Friend.png" 
-            alt="All_My_Demons_Greeting_Me_as_a_Friend"><br>
-            <a href="Aurora.html">All my Demons Greeting Me as a Friend - Aurora</a>
-            <br><br>        
-            <hr>
+        <h3 class="fs-5 textcol2 padtext">Come and check this out! </h3>
+    </div>
+    </div>
+    <div class="container-fluid middle-container">
+        <h2 class="textcol2 fs-4">New Artists Upload</h2>
+    <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide"  data-bs-ride="true" data-touch="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active art" data-bs-interval="5000">
+            <a href="Aurora.html"><img class="  artists-circle-images  " id="artist-1" src="images/aurora-2.jpeg" alt="Aurora-aksnes"></a>
+            <p class="font-family-fantasy desc-size">Aurora</p>
+          </div>
+          <div class="carousel-item art" data-bs-interval="5000">
+            <a href="Agnes_Obel.html"><img class="artists-circle-images img-fluid" id="artist-2" src="images/agnes-2.png" alt="Agnes-obel"></a>
+            <p class="font-family-fantasy desc-size">Agnes Obel</p>
+          </div>
+          <div class="carousel-item art" data-bs-interval="5000">
+            <a href="Loreena.html"><img class=" artists-circle-images img-fluid" id="artist-3" src="images/lorrena-2.jpeg" alt="loreena"></a>
+            <p class="font-family-fantasy desc-size">Loreena</p>
+          </div>
+          <div class="carousel-item art" data-bs-interval="5000">
+            <a href=""><img class=" artists-circle-images img-fluid" id="artist-4" src="images/alice.png" alt="alice-Phoebe-lou"></a>
+            <p class="font-family-fantasy desc-size">Alice Phoebe Lou</p>
+          </div>
         </div>
+        <button class="carousel-control-prev col1" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="section-2 container fluid">
+        <h3> Reminders to a healthier life</h3>
+        <div class="row">
+            <div class="tamico col-lg-3 col-md-6 col-sm-6 fs-4">
+                <i class="icoh fa-solid fa-bottle-water "></i>
+                <p>Drink water</p>
+            </div>
+            <div class="tamico col-lg-3 col-md-6 col-sm-6 fs-4">
+                <i class="icoh fa-solid fa-carrot"></i>
+                <p>Eat more vegetables</p>
+            </div>
+            <div class="tamico col-lg-3 col-md-6 col-sm-6 fs-4">
+                <i class="icoh fa-solid fa-tree"></i>
+                <p>Embrace nature</p>
+            </div>
+            <div class="tamico col-lg-3 col-md-6 col-sm-6 fs-4">
+                <i class="icoh fa-solid fa-dumbbell"></i>
+                <p>Do exercises</p>
+            </div>
         </div>
-        <div class="englobing-bottom">
-        <div class="bottom-container">
-            <form action="mailto:brandaoa65@gmail.com" method="post" enctype="text/plain">
-                <fieldset>
-                    <legend>Comment Section</legend>
-                    <label for="">Your Name:</label><br>
-                    <input type="text" name="Name" id=""><br>
-                    <label for="">Email:</label> <br>
-                    <input type="email" name="Email" id=""><br>
-                    <label for=""><h3>Send me a message:</h3></label>
-                    <textarea name="Comment" id="" cols="60" rows="10"></textarea><br>
-                    <br>
-                    <input type="submit">
-            </fieldset>
-            </form>
+        <div class="row">
+            <div class="tamico col-lg-3 col-md-6 col-sm-6 fs-4">
+                <i class="icoh fa-solid fa-book"></i>
+                <p>Read more</p>
+            </div>
+            <div class="tamico col-lg-3 col-md-6 col-sm-6 fs-4">
+                <i class="icoh fa-solid fa-music"></i>
+                <p>Listen to good music</p>
+            </div>
+            <div class="tamico col-lg-3 col-md-6 col-sm-6 fs-4">
+                <i class="icoh fa-solid fa-sun"></i>
+                <p>Be grateful</p>
+            </div>
+            <div class="tamico col-lg-3 col-md-6 col-sm-6 fs-4">
+                <i class="icoh fa-solid fa-heart"></i>
+                <p>Love</p>
+            </div>
         </div>
-        <div class="full-bottom-container">
-            <p id="copyright">© 2023 Endurance, A.B.</p>
-            <a href="https://twitter.com/logan19633/"><img id="twitter-icon" src="images/twitter-icon.png" alt="twitter-icon"></a>
-            <a href="https://www.last.fm/pt/user/andre0_0"><img id="lastfm-icon" src="images/lastfm-icon.png" alt="lastfm-icon"></a>
-            <a href="https://open.spotify.com/playlist/1zSHiMIZEJQ7zK3LGG2cw1"><img id="spotify-icon" src="images/spotify-icon.png" alt="spotify-icon"></a>
+    </div>
+    <div class="container-fluid bottom-container">
+        <form action="mailto:brandaoa65@gmail.com" method="post" enctype="text/plain">
+            <fieldset class="border-primary">
+                <legend>Comment Section</legend>
+                <label for="">Your Name:</label><br>
+                <input type="text" name="Name" id=""><br>
+                <label for="">Email:</label> <br>
+                <input type="email" name="Email" id=""><br>
+                <label for=""><h4>Send me a message:</h4></label> <br>
+                <textarea name="Comment" id="" cols="60" rows="10"></textarea><br>
+                <input class="btn btn-outline-secondary btn-sm" type="submit"> 
+                <br>
+        </fieldset>
+        </form>
+    </div>
+    <div class="container-fluid bottom">
+        <div class="logos-ico">
+            <a href="https://twitter.com/logan19633/"><i class="fa-brands fa-twitter logo-text fs-4"></i></a>
+            <a href="https://www.last.fm/pt/user/andre0_0"><i class="fa-brands fa-lastfm logo-text fs-4"></i></a>
+            <a href="https://open.spotify.com/playlist/1zSHiMIZEJQ7zK3LGG2cw1"><i class="fa-brands fa-spotify logo-text fs-4"></i></a>
         </div>
-        </div>
-       
-    </body>
+        <p class="fs-6" id="copyright">© 2023 Endurance, A.B.</p>
+    </div>
+</body>
 </html>
