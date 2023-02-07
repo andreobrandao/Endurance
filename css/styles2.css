@@ -1,11 +1,21 @@
 .font-family-fantasy{
-    font-family: fantasy;
+    font-family: 'Stardos Stencil', cursive;
 }
 .backcol{
     background-color: #0E5E6F;
 }
 .col{
     color: black;
+}
+.stylish-line{
+    background-color: #EFF5F5;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 6px; 
+    width: 15%;
+    margin: 20px auto;
+    
 }
 .backcol2{
     background-color:#EEEEEE;
@@ -65,7 +75,6 @@
     border-style: solid ;
     border-color: white;
     border-width: 10px;
-
 }
 
 .pos-art{
@@ -77,6 +86,13 @@
     text-align: center;
 }
 
+.poet-text{
+    text-align: center;
+    line-height: 1.5;
+}
+.wid1{
+    width: 55%;
+}
 .desc-size{
     font-size: larger;
 }
@@ -117,10 +133,10 @@
     padding: 0 5px;
 }
 #copyright{
-    width: 40%;
+    width: 50%;
     position: absolute;
     text-align: end;
-    left: 60%;
+    left: 50%;
     margin-top: 127px;
     color: white;
 }
@@ -133,9 +149,38 @@
 .icoh1{
     color: red;
 }
+.form-w{
+    width: 40%;
+}
+.form-w2{
+    width: 60%;
+    height: 40%;
+}
 h3 {
     padding: 30px 0;
 }
 .me{
     width: 25%;
+}
+/*Artists page*/
+
+.art-hov:hover{
+    border-style: solid ;
+    border-color: white;
+    border-width: 10px;
+}
+
+.backimg{
+    background-image:url("images/back_human.png");
+}
+.text-pos{
+    margin: auto 0;
+}
+.btn-art{
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-art{
+    width: 100%;
+    padding-bottom: 5%;
 }
